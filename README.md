@@ -2,11 +2,11 @@
 
 Laboratório prático simulando um cenário de monitoramento híbrido (on-premises + cloud), com uma VM Ubuntu rodando Zabbix 7.0 monitorando uma instância EC2 privada na AWS, conectada via VPN Site-to-Site.
 
-## 🎯 Objetivo
+##  Objetivo
 
 Simular um ambiente corporativo real onde um servidor de monitoramento local (on-premises) precisa enxergar recursos hospedados em uma VPC privada na AWS, sem expor a instância à internet — replicando um desafio comum em redes corporativas híbridas.
 
-## 🏗️ Arquitetura
+##  Arquitetura
 
 - **On-premises (simulado):** VM Ubuntu com Zabbix Server 7.0
 - **AWS:**
@@ -82,4 +82,4 @@ Projeto de estudo pessoal, sem fins comerciais.
 Enterprise Network Analyst | Em transição para Cloud Computing
 Certificações: AWS Cloud Practitioner · AWS Solutions Architect Associate · AZ-900
 
-[LinkedIn](#) · [GitHub](https://github.com/RobertoJanuario)
+[LinkedIn](#) · [GitHub]([https://github.com/RobertoJanuario](https://www.linkedin.com/in/roberto-januario-a450331b5/)
