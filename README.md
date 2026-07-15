@@ -33,8 +33,6 @@ O ambiente local estava atrás de CGNAT (Carrier-Grade NAT), o que impede a cria
 ```
 Hybrid-monitoring/
 ├── README.md
-├── docs/
-│   └── teardown-checklist.md       # checklist de desmontagem do ambiente
 ├── diagrams/
 │   └── arquitetura.png             # diagrama da arquitetura completa
 ├── network/
