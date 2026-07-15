@@ -19,7 +19,7 @@ Simular um ambiente corporativo real onde um servidor de monitoramento local (on
 
 O ambiente local estava atrás de CGNAT (Carrier-Grade NAT), o que impede a criação direta de uma VPN Site-to-Site tradicional (não há IP público fixo do lado on-premises). A solução foi usar uma **EC2 pública rodando StrongSwan** como endpoint intermediário da VPN, contornando essa limitação e permitindo a comunicação segura entre o Zabbix (local) e a EC2 privada (AWS).
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Zabbix Server 7.0
 - Ubuntu (VM local via VirtualBox)
@@ -28,7 +28,7 @@ O ambiente local estava atrás de CGNAT (Carrier-Grade NAT), o que impede a cria
 - StrongSwan (VPN Site-to-Site / IPsec)
 - Linux (administração e hardening)
 
-## 📁 Estrutura do repositório
+## Estrutura do repositório
 
 ```
 Hybrid-monitoring/
@@ -50,9 +50,9 @@ Hybrid-monitoring/
     └── Ec2-network-interfaces.png
 ```
 
-> 💡 Sugestão de organização — os arquivos atualmente estão soltos na raiz do repositório. Recomendo movê-los para as subpastas acima para facilitar a navegação.
 
-## 📸 Evidências
+
+##  Evidências
 
 ### Rede e VPN
 Configuração da VPC, subnets pública/privada e túnel VPN estabelecido entre o ambiente local e a AWS.
@@ -70,13 +70,12 @@ Utilização de CPU, disco e interfaces de rede da instância EC2 monitorada.
 6. Instalar Zabbix Agent na EC2 privada e adicionar o host no Zabbix Server
 7. Validar coleta de métricas e criar triggers/alertas
 
-Checklist completo de desmontagem do ambiente disponível em [`docs/teardown-checklist.md`](docs/teardown-checklist.md).
 
-## 📄 Licença
+##  Licença
 
 Projeto de estudo pessoal, sem fins comerciais.
 
-## 👤 Autor
+##  Autor
 
 **Roberto Januario**
 Enterprise Network Analyst | Em transição para Cloud Computing
