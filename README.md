@@ -58,7 +58,7 @@ Configuração da VPC, subnets pública/privada e túnel VPN estabelecido entre 
 ### Métricas de infraestrutura
 Utilização de CPU, disco e interfaces de rede da instância EC2 monitorada.
 
-## 🚀 Como reproduzir
+##  Como reproduzir
 
 1. Provisionar VPC na AWS com subnet pública e privada
 2. Subir EC2 pública com StrongSwan configurado como endpoint IPsec
